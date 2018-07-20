@@ -6,23 +6,23 @@
 
 로컬 깃헙과 git@~~와 연결시켜준다
 
-- git remote -v
+- `git remote -v`
 
   설정된 remote경로가 출력
 
-- git config --list
+- `git config --list`
 
   name과 email이 설정되어 있는지를 확인하기 위해 사용
 
-- ls -al
+- `ls -al`
 
   직접 보기
 
 - w저장 q끝내기
 
-- vi .git/config
+- `vi .git/config`
 
-- git push -u origin master
+- `git push -u origin master`
 
   (마스터 브랜치에 푸시)
 
@@ -32,9 +32,9 @@
 
 수정된 버전 기록: 커밋기록이 남음. 커밋은 계속 바꾸고 나중에 푸시 한번 할 수 있음.
 
-git commit -m '1987년 대한민국 헌법 개정안'
+`git commit -m '1987년 대한민국 헌법 개정안'`
 
-git push -u origin master
+`git push -u origin master`
 
 커밋한 1987년 헌법 개정안이 커밋된 후 마스터 브랜치로 푸시됨 (github에 올라감)
 
@@ -75,7 +75,7 @@ git remote add upstream
 
 3. rebase upstream
 
-4. git pull rebase 로 가지고 옴
+4. `git pull rebase` 로 가지고 옴
 
    (git fetch, merge, add, commit을 하나의 과정으로)
 

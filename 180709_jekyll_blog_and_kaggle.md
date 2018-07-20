@@ -29,11 +29,11 @@ git clone (클론을 받아옴) > git add (stage 상태로 올림) > git commit 
 
 보통의 경우에는 upstream에 대한 수정 권한이 없기 때문에 우리도 origin으로 push하여 풀리퀘스트 하는 방법으로 실습 중. 지금은 우리도 upstream의 수정 권한이 있기 때문에 origin 대신 upstream으로 바꾸어 준다면 한번에 upstream으로 올려줄 수 있음.
 
-git add . > 로컬의 파일들을 전부 다 깃으로 관리하겠다는 의미
+`git add .` > 로컬의 파일들을 전부 다 깃으로 관리하겠다는 의미
 
 내 저장소로 가지고 오고 싶으면
 
-git pull **origin**(upstream) **master**(branch)
+`git pull **origin**(upstream) **master**(branch)`
 
 rebase를 많이 선호 하는 편.
 
