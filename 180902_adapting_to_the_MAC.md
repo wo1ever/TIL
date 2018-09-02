@@ -7,5 +7,4 @@
 2. 깃 설치 (터미널에서 git --version 입력)
 3. 파이썬 설치
 4. atom 설치
-5. 
-6. typora 설치
+5. typora 설치
